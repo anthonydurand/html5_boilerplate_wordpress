@@ -58,8 +58,8 @@ $side-gutter-width: 	$gutter-width / 2;
 
 
 // Don't move this @import above the GRID and FONT-SIZE variables.
-@import "susy/susy";
-@include susy;
+@import "susy";
+//@include susy;
 
 // @import "compass"; // not necessary after importing susy
 @import "modules/base";
